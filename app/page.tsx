@@ -115,7 +115,7 @@ export default function TargetAI(){
       if(p>=100){
         p=100; clearInterval(interval)
         // Simulated final mp4 that plays everywhere #6
-        setVideoUrl("https://storage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4")
+        setVideoUrl("https://www.w3schools.com/html/mov_bbb.mp4")
         setGenerating(false)
       }
       setGenProgress(Math.floor(p))
